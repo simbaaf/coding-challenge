@@ -9,7 +9,7 @@
 export default {
     name: 'navbar',
     props: {
-        isActive : 'false'
+        isActive : false
     },
 
 }
