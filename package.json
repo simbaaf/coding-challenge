@@ -14,7 +14,8 @@
     "bulma": "^0.7.4",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0",
-    "vue": "^2.6.6"
+    "vue": "^2.6.6",
+    "vue-infinite-loading": "^2.4.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
