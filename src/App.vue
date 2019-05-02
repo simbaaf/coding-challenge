@@ -1,29 +1,37 @@
 
 <template>
-    <div class="app">
+    <div class="app has-background-white-ter"  >
       <div class="box" v-for="Repo in Repos" :key="Repo.id">
   <article class="media">
     <div class="media-left">
       <figure class="image is-128x128">
-        <img :src =Repo.owner.avatar_url value="avatar" alt="the avatar of user">
+        <img :src =Repo.owner.avatar_url
+              value="avatar" 
+              alt="the avatar of the user"
+              title="The Avatar of the user"
+              >
       </figure>
     </div>
     <div class="media-content">
       <div class="content">
-          <a 
+          <a  title="check more information about this repo"
               :href=Repo.html_url 
               class="item has-text-dark">
               <strong>{{ Repo.name }}</strong>
           </a>
           <br>
           <br>
-          <p> {{ Repo.description }} </p>
+          <p> <strong>description:</strong> {{ Repo.description }} </p>
           <br>
           <a 
-              class="item-1 has-text-dark ">
+              class="item-1 has-text-dark"
+              title="Number of stars"
+              >
               <strong> Stars: </strong>  {{ Repo.forks }}
           </a>
-          <a class="item-2 has-text-dark"> 
+          <a class="item-2 has-text-dark"
+              title="Number of issues"
+          > 
              <strong> Issues: </strong>   {{ Repo.open_issues_count }}
           </a>
       </div>  
