@@ -20,12 +20,12 @@ A Small Application building With Vuejs, it's Contain all trending Repositories 
  
  1- Clone it :
  ```
-git clone https://github.com/simbaaf/coding-challenge.git
+git clone https://github.com/simbaaf/trending-repo.git
  ```
 
-2- Change Directory into Coding Challenge and install Dependecies : 
+2- Change Directory into Trending-repo and install Dependecies : 
  ```
-cd coding-challenge/
+cd trending-repo/
 yarn install 
  ```
  3- Start Project with the following command
