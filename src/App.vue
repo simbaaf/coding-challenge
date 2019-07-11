@@ -63,6 +63,7 @@ created() {
 methods: {
   async GetData($state) {
     let url = `https://api.github.com/search/repositories?q=created:>2019-06-20&sort=stars&order=desc&page=${this.page}`
+    // fetching Data
     const {data} = await axios.get(url, {
         params: {
           page: this.page++,
@@ -71,6 +72,7 @@ methods: {
           q: "created:>2019-06-20"
         },
     })
+    //push data on Repos Array
     this.Repos.push(...data.items)
      $state.loaded();
    }
@@ -78,9 +80,12 @@ methods: {
 }
   
 </script>
+
  <style scoped>
+
 .item-2 {
 margin: 30px;
 };
+
  </style>
 
