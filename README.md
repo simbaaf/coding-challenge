@@ -1,26 +1,31 @@
 
-# Introduction :
+# Introduction :sunglasses: :
 
 A Small Application building With Vuejs, it's Contain all trending Repositories that were created in last 30 days
 
-# Technologies Used : 
+# Technologies Used :confused: : 
 
-- **Vuejs** : is an open source Framework of javascript for building user interface 
 
-- **Axios** : Promise based HTTP client for the browser and node.js
+- **Vuejs** : is an open source Framework of javascript for building user interface [Link](https://vuejs.org/).
 
-- **vue-infinite-loading** : An infinte Scroll plugin for Vuejs
+- **Axios** : Promise based HTTP client for the browser and node.js.
+
+- **Vuetify** : Vuetify is a semantic development framework for Vue.js. Built with Material Design, it aims to provide all the tools necessary to create beautiful content interface  [Link](https://vuetifyjs.com/en).
+
+- **vue-infinite-loading** : An infinte Scroll plugin for Vuejs [Visit plugin's Page](https://peachscript.github.io/vue-infinite-loading/).
+
 
 # Installation :
+
  
  1- Clone it :
  ```
-git clone https://github.com/simbaaf/coding_chalenge.git
+git clone https://github.com/simbaaf/coding-challenge.git
  ```
 
 2- Change Directory into Coding Challenge and install Dependecies : 
  ```
-cd coding_challenge/
+cd coding-challenge/
 yarn install 
  ```
  3- Start Project with the following command
