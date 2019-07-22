@@ -3,15 +3,14 @@
 
 A Small Application building With Vuejs, it's Contain all trending Repositories that were created in last 30 days
 
-# Technologies Used :gem: : 
+# *Technologies Used* :gem: : 
 
 
-- **Vuejs** : is an open source Framework of javascript for building user interface [Link](https://vuejs.org/).
+- ***Vuejs*** : is an open source Framework of javascript for building user interface [Link](https://vuejs.org/).
 
-- **Axios** : Promise based HTTP client for the browser and node.js.
+- ***Axios*** : Promise based HTTP client for the browser and node.js.
 
-- **Vuetify** : Vuetify is a semantic development framework for Vue.js. Built with Material Design, it aims to provide all the tools necessary to create beautiful content interface  [Link](https://vuetifyjs.com/en).
-
+- ***bulma*** : is a free, open source CSS framework based on Flexbox and used by more than 200,000 developers.[link](https://bulma.io/)
 - **vue-infinite-loading** : An infinte Scroll plugin for Vuejs [Visit plugin's Page](https://peachscript.github.io/vue-infinite-loading/).
 
 
