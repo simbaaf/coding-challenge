@@ -3,7 +3,7 @@
 
 A Small Application building With Vuejs, it's Contain all trending Repositories that were created in last 30 days
 
-# Technologies Used :confused: : 
+# Technologies Used :gem: : 
 
 
 - **Vuejs** : is an open source Framework of javascript for building user interface [Link](https://vuejs.org/).
@@ -15,7 +15,7 @@ A Small Application building With Vuejs, it's Contain all trending Repositories 
 - **vue-infinite-loading** : An infinte Scroll plugin for Vuejs [Visit plugin's Page](https://peachscript.github.io/vue-infinite-loading/).
 
 
-# Installation :
+# Installation :rocket: :
 
  
  1- Clone it :
@@ -23,12 +23,12 @@ A Small Application building With Vuejs, it's Contain all trending Repositories 
 git clone https://github.com/simbaaf/trending-repo.git
  ```
 
-2- Change Directory into Trending-repo and install Dependecies : 
+2- Change Directory into Trending-repo and install Dependencies :fire: : 
  ```
 cd trending-repo/
 yarn install 
  ```
- 3- Start Project with the following command
+ 3- Start Project with the following command :fist: :
  ```
  yarn serve
 ```
