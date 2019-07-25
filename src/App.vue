@@ -44,6 +44,7 @@
 
 <script>
 import axios from "axios"
+import { getDateBeforeMonth } from '../src/configTime/configTime'
 import InfiniteLoading from 'vue-infinite-loading';
 export default {
 
@@ -62,14 +63,14 @@ created() {
 },
 methods: {
   async GetData($state) {
-    let url = `https://api.github.com/search/repositories?q=created:>2019-06-23&sort=stars&order=desc&page=${this.page}`
+    let url = `https://api.github.com/search/repositories?q=created:>${ getDateBeforeMonth() }&sort=stars&order=desc&page=${this.page}`
     // fetching Data from github API 
     const {data} = await axios.get(url, {
         params: {
           page: this.page++,
           order: "desc", 
           sort:"stars",
-          q: "created:>2019-06-20"
+          q: `created:>${ getDateBeforeMonth() }`
         },
     })
     //push data on Repos Array
